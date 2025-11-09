@@ -32,7 +32,7 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 - **Registro** en el historial de transacciones  
 
 ***
-
+  
 ## 🛠️ **Tecnologías**  
 - **Lenguaje:** Java  
 - **Paradigma:** Programación Orientada a Objetos (POO)  
@@ -46,76 +46,10 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 ### **Prerrequisitos**  
 - **Java JDK 8** o superior  
 
-***
-
-### ▶️ Pasos para ejecutar
-
-#### 1️⃣ Compilar el programa:
-```bash
-javac BancoInteractivo.java
-
-####2️⃣ Ejecutar el sistema:
+2️⃣ Ejecutar el sistema
 java BancoInteractivo
+
 
 💻 Uso del Sistema
 
 Al iniciar, se cargan cuentas predefinidas:
-
-Cuenta: 001 | Titular: Juan Pérez  
-Cuenta: 002 | Titular: María García  
-Cuenta: 003 | Titular: Carlos López
-
-🧭 Menú de Opciones:
-
-Depositar dinero
-
-Retirar dinero
-
-Transferir entre cuentas
-
-Ver saldo
-
-Ver historial
-
-Aplicar interés
-
-Listar cuentas
-
-Crear nueva cuenta
-
-Salir
-
-🚨 Manejo de Errores
-Excepción	Descripción
-SaldoInsuficienteException	Cuando no hay fondos suficientes
-CuentaNoEncontradaException	Cuando la cuenta no existe
-MontoInvalidoException	Cuando el monto es incorrecto
-🧩 Estructura del Proyecto
-BancoInteractivo.java
-├── Clases Principales
-│   ├── CuentaBancaria
-│   ├── Transaccion
-│   ├── TipoTransaccion (Enum)
-│   └── Excepciones Personalizadas
-├── Servicios
-│   ├── CuentaService
-│   ├── TransferenciaService
-│   └── InteresService
-└── Main con Menú Interactivo
-
-🧠 Principios POO Aplicados
-
-Encapsulación: Atributos privados con métodos públicos.
-
-Responsabilidad Única: Cada clase cumple una función específica.
-
-Abstracción: Interfaces claras entre componentes.
-
-Manejo de Excepciones: Errores controlados y mensajes claros.
-
-Abierto/Cerrado: Fácil de extender sin modificar código base.
-
-👨‍💻 Autor
-
-Desarrollado como proyecto educativo para aplicar principios de POO en Java.
-📄 Licencia: Proyecto educativo — Libre uso y modificación.
