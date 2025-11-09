@@ -47,24 +47,26 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 - **Java JDK 8** o superior  
 
 ***
-Pasos para ejecutar:
-Compilar el programa:
 
-bash
+### ▶️ Pasos para ejecutar
+
+#### 1️⃣ Compilar el programa:
+```bash
 javac BancoInteractivo.java
-Ejecutar el sistema:
 
-bash
+####2️⃣ Ejecutar el sistema:
 java BancoInteractivo
-Uso del Sistema
-Cuentas Predefinidas:
-Cuenta: 001 | Titular: Juan Pérez
 
-Cuenta: 002 | Titular: María García
+💻 Uso del Sistema
 
+Al iniciar, se cargan cuentas predefinidas:
+
+Cuenta: 001 | Titular: Juan Pérez  
+Cuenta: 002 | Titular: María García  
 Cuenta: 003 | Titular: Carlos López
 
-Menú de Opciones:
+🧭 Menú de Opciones:
+
 Depositar dinero
 
 Retirar dinero
@@ -83,15 +85,12 @@ Crear nueva cuenta
 
 Salir
 
-Manejo de Errores
-SaldoInsuficienteException - Cuando no hay fondos suficientes
-
-CuentaNoEncontradaException - Cuando la cuenta no existe
-
-MontoInvalidoException - Cuando el monto es incorrecto
-
-Estructura del Proyecto
-text
+🚨 Manejo de Errores
+Excepción	Descripción
+SaldoInsuficienteException	Cuando no hay fondos suficientes
+CuentaNoEncontradaException	Cuando la cuenta no existe
+MontoInvalidoException	Cuando el monto es incorrecto
+🧩 Estructura del Proyecto
 BancoInteractivo.java
 ├── Clases Principales
 │   ├── CuentaBancaria
@@ -103,18 +102,20 @@ BancoInteractivo.java
 │   ├── TransferenciaService
 │   └── InteresService
 └── Main con Menú Interactivo
-Principios POO Aplicados
-Encapsulación: Atributos privados con métodos públicos
 
-Responsabilidad Única: Cada clase tiene una función específica
+🧠 Principios POO Aplicados
 
-Manejo de Excepciones: Errores controlados y mensajes claros
+Encapsulación: Atributos privados con métodos públicos.
 
-Abstracción: Interfaces claras entre componentes
+Responsabilidad Única: Cada clase cumple una función específica.
 
-Autor
+Abstracción: Interfaces claras entre componentes.
+
+Manejo de Excepciones: Errores controlados y mensajes claros.
+
+Abierto/Cerrado: Fácil de extender sin modificar código base.
+
+👨‍💻 Autor
+
 Desarrollado como proyecto educativo para aplicar principios de POO en Java.
-
-Licencia
-Proyecto educativo - Libre uso y modificación.
-
+📄 Licencia: Proyecto educativo — Libre uso y modificación.
