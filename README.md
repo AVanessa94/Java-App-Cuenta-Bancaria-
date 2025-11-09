@@ -47,6 +47,15 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 - **Java JDK 8** o superior  
 
 ***
+Pasos para ejecutar:
+Compilar el programa:
+
+bash
+javac BancoInteractivo.java
+Ejecutar el sistema:
+
+bash
+java BancoInteractivo
 Uso del Sistema
 Cuentas Predefinidas:
 Cuenta: 001 | Titular: Juan Pérez
@@ -108,7 +117,4 @@ Desarrollado como proyecto educativo para aplicar principios de POO en Java.
 
 Licencia
 Proyecto educativo - Libre uso y modificación.
-
-
-
 
