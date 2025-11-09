@@ -48,43 +48,42 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 
 ***
 
+
 ### **Pasos para ejecutar:**  
 
-1. **Compilar el programa:**  
+1. **Compilar el programa:**
 ```bash
 javac BancoInteractivo.java
-Ejecutar el sistema:
 
-bash
-java BancoInteractivo
-🎮 Uso del Sistema
+
+Uso del Sistema
 Cuentas Predefinidas:
-text
-📊 **Cuenta:** 001 | **Titular:** Juan Pérez
-📊 **Cuenta:** 002 | **Titular:** María García  
-📊 **Cuenta:** 003 | **Titular:** Carlos López
+Cuenta: 001 | Titular: Juan Pérez
+
+Cuenta: 002 | Titular: María García
+
+Cuenta: 003 | Titular: Carlos López
+
 Menú de Opciones:
-💰 Depositar dinero
+Depositar dinero
 
-🏧 Retirar dinero
+Retirar dinero
 
-🔄 Transferir entre cuentas
+Transferir entre cuentas
 
-📊 Ver saldo
+Ver saldo
 
-📋 Ver historial
+Ver historial
 
-📈 Aplicar interés
+Aplicar interés
 
-👥 Listar cuentas
+Listar cuentas
 
-➕ Crear nueva cuenta
+Crear nueva cuenta
 
-❌ Salir
+Salir
 
-
-***
-###🛡️ **Manejo de Errores**
+Manejo de Errores
 El sistema incluye excepciones personalizadas:
 
 SaldoInsuficienteException - Cuando no hay fondos suficientes
@@ -93,35 +92,28 @@ CuentaNoEncontradaException - Cuando la cuenta no existe
 
 MontoInvalidoException - Cuando el monto es incorrecto
 
-🏗️ Estructura del Proyecto
+Estructura del Proyecto
 text
 BancoInteractivo.java
-├── **Clases Principales**
+├── Clases Principales
 │   ├── CuentaBancaria
 │   ├── Transaccion
 │   ├── TipoTransaccion (Enum)
 │   └── Excepciones Personalizadas
-
-├── **Servicios**
+├── Servicios
 │   ├── CuentaService
 │   ├── TransferenciaService
 │   └── InteresService
+└── Main con Menú Interactivo
+Principios POO Aplicados
+Encapsulación: Atributos privados con métodos públicos
 
-└── **Main con Menú Interactivo**
+Responsabilidad Única: Cada clase tiene una función específica
 
-****
+Manejo de Excepciones: Errores controlados y mensajes claros
 
-###📋 **Principios POO Aplicados**
+Abstracción: Interfaces claras entre componentes
 
-✅ Encapsulación: Atributos privados con métodos públicos
-
-✅ Responsabilidad Única: Cada clase tiene una función específica
-
-✅ Manejo de Excepciones: Errores controlados y mensajes claros
-
-✅ Abstracción: Interfaces claras entre componentes
-
-****
-
-👤 Autor
+Autor
 Desarrollado como proyecto educativo para aplicar principios de POO en Java.
+
