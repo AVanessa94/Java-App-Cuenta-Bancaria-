@@ -46,54 +46,56 @@ Sistema bancario interactivo desarrollado en Java que aplica principios de Progr
 ### **Prerrequisitos**  
 - **Java JDK 8** o superior  
 
-### ▶️ Pasos para ejecutar
 
-#### 1️⃣ Compilar el programa
+## ▶️ **Pasos para ejecutar**
+
+**1️⃣ Compilar el programa**
 ```bash
 javac BancoInteractivo.java
-2️⃣ Ejecutar el sistema
-bash
-Copiar código
+```
+
+**2️⃣ Ejecutar el sistema**
+```bash
 java BancoInteractivo
-💻 Uso del Sistema
+```
+
+---
+
+## 💻 **Uso del Sistema**
 
 Al iniciar, se cargan cuentas predefinidas:
 
-yaml
-Copiar código
-Cuenta: 001 | Titular: Juan Pérez  
-Cuenta: 002 | Titular: María García  
-Cuenta: 003 | Titular: Carlos López
-🧭 Menú de Opciones
+- **Cuenta:** 001 | **Titular:** Juan Pérez  
+- **Cuenta:** 002 | **Titular:** María García  
+- **Cuenta:** 003 | **Titular:** Carlos López  
 
-Depositar dinero
+---
 
-Retirar dinero
+## 🧭 **Menú de Opciones**
 
-Transferir entre cuentas
+- Depositar dinero  
+- Retirar dinero  
+- Transferir entre cuentas  
+- Ver saldo  
+- Ver historial  
+- Aplicar interés  
+- Listar cuentas  
+- Crear nueva cuenta  
+- Salir  
 
-Ver saldo
+---
 
-Ver historial
+## 🚨 **Manejo de Errores**
 
-Aplicar interés
+- **SaldoInsuficienteException** → Cuando no hay fondos suficientes  
+- **CuentaNoEncontradaException** → Cuando la cuenta no existe  
+- **MontoInvalidoException** → Cuando el monto es incorrecto  
 
-Listar cuentas
+---
 
-Crear nueva cuenta
+## 🧩 **Estructura del Proyecto**
 
-Salir
-
-🚨 Manejo de Errores
-
-SaldoInsuficienteException → Cuando no hay fondos suficientes
-CuentaNoEncontradaException → Cuando la cuenta no existe
-MontoInvalidoException → Cuando el monto es incorrecto
-
-🧩 Estructura del Proyecto
-
-text
-Copiar código
+```
 BancoInteractivo/
 ├── Main.java
 ├── modelos/
@@ -108,14 +110,14 @@ BancoInteractivo/
 │   ├── CuentaService.java
 │   ├── TransferenciaService.java
 │   ├── InteresService.java
-🧠 Principios POO Aplicados
+```
 
-Encapsulación: Atributos privados con métodos públicos.
+---
 
-Responsabilidad Única: Cada clase cumple una función específica.
+## 🧠 **Principios POO Aplicados**
 
-Abstracción: Interfaces claras entre componentes.
-
-Manejo de Excepciones: Errores controlados y mensajes claros.
-
-Abierto/Cerrado: Fácil de extender sin modificar el código base. 
+- **Encapsulación:** Atributos privados con métodos públicos.  
+- **Responsabilidad Única:** Cada clase cumple una función específica.  
+- **Abstracción:** Interfaces claras entre componentes.  
+- **Manejo de Excepciones:** Errores controlados y mensajes claros.  
+- **Abierto/Cerrado:** Fácil de extender sin modificar el código base.  
